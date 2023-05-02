@@ -28,7 +28,7 @@ export default function Home({ meals }) {
 }
 
 export async function getServerSideProps() {
-  const { data } = await axios.get('http://localhost:3000/api/meal')
+  const { data } = await axios.get('https://nextjsfoodorderingapppp.vercel.app/api/meal')
 
   console.log(data)
   return {

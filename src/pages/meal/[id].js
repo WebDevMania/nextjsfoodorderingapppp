@@ -72,7 +72,7 @@ const MealDetails = ({ meal }) => {
 export async function getServerSideProps(ctx) {
     const id = ctx.params.id
 
-    const { data } = await axios.get(`http://localhost:3000/api/meal/${id}`)
+    const { data } = await axios.get(`https://nextjsfoodorderingapppp.vercel.app/api/meal/${id}`)
 
     return {
         props: {
