@@ -1,0 +1,170 @@
+.container {
+    margin-top: 3.75rem;
+    height: calc(100vh - 60px);
+    width: 100%;
+}
+
+.wrapper {
+    height: 75%;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    gap: 10rem;
+}
+
+.left{
+    height: 700px;
+    width: 800px;
+}
+
+.left > img{
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    margin-bottom: 3.75rem;
+    text-transform: capitalize;
+    font-size: 36px;
+    color: #e2a024;
+    margin-left: -0.5rem;
+}
+
+.category{
+    font-size: 22px;
+    color: #f68613;
+    margin-bottom: 5rem;
+    font-weight: bold;
+}
+
+.category > span{
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 0.25rem 0.75rem;
+    background-color: #c5850d;
+    color: #eae3e3;
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+
+.desc{
+    margin-bottom: 3.75rem;
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 250px;
+}
+
+.price{
+    margin-bottom: 5rem;
+    font-size: 19px;
+}
+
+.price > span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.readyIn{
+    color: #666;
+}
+
+.orderButton{
+    border: 1px solid transparent;
+    outline: none;
+    margin-bottom: 10rem;
+    width: 200px;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #c5850d;
+    color: #efefef;
+    cursor: pointer;
+    transition: 150ms ease-in-out;
+}
+
+.orderButton:hover{
+    border-color: #c5850d;
+    color: #c5850d;
+    background-color: transparent;
+}
+
+.contactForm{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999999;
+}
+
+.contactFormWrapper{
+    position: relative;
+    background-color: #fff;
+    height: 65vh;
+    width: 25vw;
+    border-radius: 20px;
+}
+
+.contactFormWrapper > h2{
+    text-align: center;
+    margin: 2.5rem 0;
+    margin-bottom: 5rem;
+    font-size: 36px;
+}
+.contactFormWrapper > form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.contactFormWrapper > form > input,
+.contactFormWrapper>form>textarea{
+    outline: none;
+    border: 1px solid #999;
+    padding: 0.25rem 0.75rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 18px;
+    margin-right: 1rem;
+}
+
+.contactFormWrapper > form > textarea{
+    resize: none;
+    height: 150px;
+}
+
+.contactFormWrapper button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 5rem;
+    padding: 0.5rem 1.5rem;
+    background-color: #c5850d;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.removeIcon{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 22px;
+    cursor: pointer;
+}

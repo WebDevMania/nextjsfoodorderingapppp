@@ -1,0 +1,48 @@
+.container{
+    height: calc(100vh - 60px);
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.wrapper{
+    height: 100%;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper > h2{
+    margin-bottom: 3.75rem;
+}
+
+.wrapper > form{
+    border: 1px solid orange;
+    border-radius: 8px;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.wrapper > form > input{
+    outline: none;
+    border: 1px solid transparent;
+    padding: 0.25rem 0.75rem;
+    border-radius: 6px;
+}
+
+.wrapper > form > button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 0.5rem 1.25rem;
+    background-color: orange;
+    color: #333;
+    width: 50%;
+}
